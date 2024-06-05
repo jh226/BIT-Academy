@@ -1,0 +1,51 @@
+C:\Users\leejh\source\repos\눈코입_클라이언트\눈코입_클라이언트\bin\Debug\눈코입_클라이언트.exe.config
+C:\Users\leejh\source\repos\눈코입_클라이언트\눈코입_클라이언트\bin\Debug\눈코입_클라이언트.exe
+C:\Users\leejh\source\repos\눈코입_클라이언트\눈코입_클라이언트\bin\Debug\눈코입_클라이언트.pdb
+C:\Users\leejh\source\repos\눈코입_클라이언트\눈코입_클라이언트\obj\Debug\눈코입_클라이언트.csproj.AssemblyReference.cache
+C:\Users\leejh\source\repos\눈코입_클라이언트\눈코입_클라이언트\obj\Debug\눈코입_클라이언트.csproj.SuggestedBindingRedirects.cache
+C:\Users\leejh\source\repos\눈코입_클라이언트\눈코입_클라이언트\obj\Debug\눈코입_클라이언트.Form1.resources
+C:\Users\leejh\source\repos\눈코입_클라이언트\눈코입_클라이언트\obj\Debug\눈코입_클라이언트.Game.resources
+C:\Users\leejh\source\repos\눈코입_클라이언트\눈코입_클라이언트\obj\Debug\눈코입_클라이언트.Properties.Resources.resources
+C:\Users\leejh\source\repos\눈코입_클라이언트\눈코입_클라이언트\obj\Debug\눈코입_클라이언트.csproj.GenerateResource.cache
+C:\Users\leejh\source\repos\눈코입_클라이언트\눈코입_클라이언트\obj\Debug\눈코입_클라이언트.csproj.CoreCompileInputs.cache
+C:\Users\leejh\source\repos\눈코입_클라이언트\눈코입_클라이언트\obj\Debug\눈코입_클라이언트.exe
+C:\Users\leejh\source\repos\눈코입_클라이언트\눈코입_클라이언트\obj\Debug\눈코입_클라이언트.pdb
+C:\Users\leejh\Desktop\눈코입_클라이언트 - 복사본\눈코입_클라이언트\bin\Debug\눈코입_클라이언트.exe.config
+C:\Users\leejh\Desktop\눈코입_클라이언트 - 복사본\눈코입_클라이언트\bin\Debug\눈코입_클라이언트.exe
+C:\Users\leejh\Desktop\눈코입_클라이언트 - 복사본\눈코입_클라이언트\bin\Debug\눈코입_클라이언트.pdb
+C:\Users\leejh\Desktop\눈코입_클라이언트 - 복사본\눈코입_클라이언트\obj\Debug\눈코입_클라이언트.csproj.AssemblyReference.cache
+C:\Users\leejh\Desktop\눈코입_클라이언트 - 복사본\눈코입_클라이언트\obj\Debug\눈코입_클라이언트.csproj.SuggestedBindingRedirects.cache
+C:\Users\leejh\Desktop\눈코입_클라이언트 - 복사본\눈코입_클라이언트\obj\Debug\눈코입_클라이언트.Form1.resources
+C:\Users\leejh\Desktop\눈코입_클라이언트 - 복사본\눈코입_클라이언트\obj\Debug\눈코입_클라이언트.Game.resources
+C:\Users\leejh\Desktop\눈코입_클라이언트 - 복사본\눈코입_클라이언트\obj\Debug\눈코입_클라이언트.Properties.Resources.resources
+C:\Users\leejh\Desktop\눈코입_클라이언트 - 복사본\눈코입_클라이언트\obj\Debug\눈코입_클라이언트.csproj.GenerateResource.cache
+C:\Users\leejh\Desktop\눈코입_클라이언트 - 복사본\눈코입_클라이언트\obj\Debug\눈코입_클라이언트.csproj.CoreCompileInputs.cache
+C:\Users\leejh\Desktop\눈코입_클라이언트 - 복사본\눈코입_클라이언트\obj\Debug\눈코입_클라이언트.exe
+C:\Users\leejh\Desktop\눈코입_클라이언트 - 복사본\눈코입_클라이언트\obj\Debug\눈코입_클라이언트.pdb
+C:\Users\leejh\Desktop\눈코입_클라이언트 - 복사본\눈코입_클라이언트\obj\Debug\눈코입_클라이언트.Answer.resources
+C:\Users\leejh\Desktop\눈코입_클라이언트_1대N\눈코입_클라이언트\bin\Debug\눈코입_클라이언트.exe.config
+C:\Users\leejh\Desktop\눈코입_클라이언트_1대N\눈코입_클라이언트\bin\Debug\눈코입_클라이언트.exe
+C:\Users\leejh\Desktop\눈코입_클라이언트_1대N\눈코입_클라이언트\bin\Debug\눈코입_클라이언트.pdb
+C:\Users\leejh\Desktop\눈코입_클라이언트_1대N\눈코입_클라이언트\obj\Debug\눈코입_클라이언트.csproj.AssemblyReference.cache
+C:\Users\leejh\Desktop\눈코입_클라이언트_1대N\눈코입_클라이언트\obj\Debug\눈코입_클라이언트.csproj.SuggestedBindingRedirects.cache
+C:\Users\leejh\Desktop\눈코입_클라이언트_1대N\눈코입_클라이언트\obj\Debug\눈코입_클라이언트.Answer.resources
+C:\Users\leejh\Desktop\눈코입_클라이언트_1대N\눈코입_클라이언트\obj\Debug\눈코입_클라이언트.Form1.resources
+C:\Users\leejh\Desktop\눈코입_클라이언트_1대N\눈코입_클라이언트\obj\Debug\눈코입_클라이언트.Game.resources
+C:\Users\leejh\Desktop\눈코입_클라이언트_1대N\눈코입_클라이언트\obj\Debug\눈코입_클라이언트.Properties.Resources.resources
+C:\Users\leejh\Desktop\눈코입_클라이언트_1대N\눈코입_클라이언트\obj\Debug\눈코입_클라이언트.csproj.GenerateResource.cache
+C:\Users\leejh\Desktop\눈코입_클라이언트_1대N\눈코입_클라이언트\obj\Debug\눈코입_클라이언트.csproj.CoreCompileInputs.cache
+C:\Users\leejh\Desktop\눈코입_클라이언트_1대N\눈코입_클라이언트\obj\Debug\눈코입_클라이언트.exe
+C:\Users\leejh\Desktop\눈코입_클라이언트_1대N\눈코입_클라이언트\obj\Debug\눈코입_클라이언트.pdb
+E:\3-1 비트 고급\04_WinForm\눈코입_클라이언트_1대N\눈코입_클라이언트\bin\Debug\눈코입_클라이언트.exe.config
+E:\3-1 비트 고급\04_WinForm\눈코입_클라이언트_1대N\눈코입_클라이언트\bin\Debug\눈코입_클라이언트.exe
+E:\3-1 비트 고급\04_WinForm\눈코입_클라이언트_1대N\눈코입_클라이언트\bin\Debug\눈코입_클라이언트.pdb
+E:\3-1 비트 고급\04_WinForm\눈코입_클라이언트_1대N\눈코입_클라이언트\obj\Debug\눈코입_클라이언트.csproj.AssemblyReference.cache
+E:\3-1 비트 고급\04_WinForm\눈코입_클라이언트_1대N\눈코입_클라이언트\obj\Debug\눈코입_클라이언트.csproj.SuggestedBindingRedirects.cache
+E:\3-1 비트 고급\04_WinForm\눈코입_클라이언트_1대N\눈코입_클라이언트\obj\Debug\눈코입_클라이언트.Answer.resources
+E:\3-1 비트 고급\04_WinForm\눈코입_클라이언트_1대N\눈코입_클라이언트\obj\Debug\눈코입_클라이언트.Form1.resources
+E:\3-1 비트 고급\04_WinForm\눈코입_클라이언트_1대N\눈코입_클라이언트\obj\Debug\눈코입_클라이언트.Game.resources
+E:\3-1 비트 고급\04_WinForm\눈코입_클라이언트_1대N\눈코입_클라이언트\obj\Debug\눈코입_클라이언트.Properties.Resources.resources
+E:\3-1 비트 고급\04_WinForm\눈코입_클라이언트_1대N\눈코입_클라이언트\obj\Debug\눈코입_클라이언트.csproj.GenerateResource.cache
+E:\3-1 비트 고급\04_WinForm\눈코입_클라이언트_1대N\눈코입_클라이언트\obj\Debug\눈코입_클라이언트.csproj.CoreCompileInputs.cache
+E:\3-1 비트 고급\04_WinForm\눈코입_클라이언트_1대N\눈코입_클라이언트\obj\Debug\눈코입_클라이언트.exe
+E:\3-1 비트 고급\04_WinForm\눈코입_클라이언트_1대N\눈코입_클라이언트\obj\Debug\눈코입_클라이언트.pdb
