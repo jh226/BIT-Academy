@@ -1,0 +1,203 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어(대한민국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 589, 312
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "학생관리프로그램"
+MENU IDR_MENU1
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "학생성적정보",IDC_STATIC,23,22,313,266
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,33,53,292,226
+    LTEXT           "학생수 : 0명",IDC_STATIC1,37,39,226,8
+    PUSHBUTTON      "불러오기",IDC_BUTTON1,273,33,50,14
+    GROUPBOX        "검색결과",IDC_STATIC,357,27,212,260
+    LTEXT           "이름",IDC_STATIC,369,66,16,8
+    EDITTEXT        IDC_EDIT1,398,62,107,14,ES_AUTOHSCROLL
+    LTEXT           "학년",IDC_STATIC,369,90,16,8
+    EDITTEXT        IDC_EDIT5,398,87,107,14,ES_AUTOHSCROLL
+    LTEXT           "국어",IDC_STATIC,369,118,16,8
+    EDITTEXT        IDC_EDIT6,398,114,107,14,ES_AUTOHSCROLL
+    LTEXT           "영어",IDC_STATIC,369,148,16,8
+    EDITTEXT        IDC_EDIT7,398,144,107,14,ES_AUTOHSCROLL
+    LTEXT           "수학",IDC_STATIC,369,178,16,8
+    EDITTEXT        IDC_EDIT8,398,175,107,14,ES_AUTOHSCROLL
+    LTEXT           "평균",IDC_STATIC,369,211,16,8
+    EDITTEXT        IDC_EDIT9,398,208,107,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "삭제",IDC_BUTTON2,511,64,50,14
+END
+
+IDD_DIALOG_INSERT DIALOGEX 0, 0, 237, 200
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "학생정보저장"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT1,60,27,142,14,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO1,60,53,142,111,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT2,60,77,142,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,60,103,142,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,60,129,142,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "확인",IDOK,98,179,50,14
+    PUSHBUTTON      "취소",IDCANCEL,154,179,50,14
+    GROUPBOX        "입력",IDC_STATIC,7,7,223,157
+    LTEXT           "이름",IDC_STATIC,28,31,16,8
+    LTEXT           "학년",IDC_STATIC,28,55,16,8
+    LTEXT           "국어",IDC_STATIC,28,79,16,8
+    LTEXT           "영어",IDC_STATIC,28,103,16,8
+    LTEXT           "수학",IDC_STATIC,28,127,16,8
+END
+
+IDD_DIALOG_SELECT DIALOGEX 0, 0, 309, 67
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "학생이름으로검색"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "적용",IDOK,237,26,50,14
+    LTEXT           "이름",IDC_STATIC,21,28,16,8
+    EDITTEXT        IDC_EDIT1,63,25,155,14,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 582
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 305
+    END
+
+    IDD_DIALOG_INSERT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 230
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 193
+    END
+
+    IDD_DIALOG_SELECT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 60
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_INSERT AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_SELECT AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    POPUP "파일(&F)"
+    BEGIN
+        MENUITEM "불러오기(&L)",                    ID_FILE_LOAD
+        MENUITEM "저장하기(&S)",                    ID_FILE_SAVE
+        MENUITEM SEPARATOR
+        MENUITEM "프로그램종료(&X)",                  ID_FILE_EXIT
+    END
+    POPUP "기능(&M)"
+    BEGIN
+        MENUITEM "학생정보저장(&I)",                  ID_STU_INSERT
+        MENUITEM "학생정보검색(&S)",                  ID_STU_SELECT
+        MENUITEM "학생정보수정(&U)",                  ID_STU_UPDATE
+        MENUITEM "학생정보삭제(&D)",                  ID_STU_DELETE
+    END
+END
+
+#endif    // 한국어(대한민국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
