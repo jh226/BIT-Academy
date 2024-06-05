@@ -1,0 +1,61 @@
+﻿<Page x:Class="_0428_성적.Insert_Grade"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:data="clr-namespace:_0428_성적"
+      xmlns:ViewModel="clr-namespace:_0428_성적.MVVM"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Insert_Grade"
+      Background="{StaticResource background}">
+    <Page.DataContext>
+        <ViewModel:MainViewModel/>
+    </Page.DataContext>
+
+    <StackPanel >
+        <Grid Margin="20,25,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0" Margin="5" Orientation="Horizontal">
+                <Label Background="Wheat">성적 입력</Label>
+            </StackPanel>
+            <StackPanel Grid.Column="1" Margin="5" Orientation="Horizontal">
+                <Label >이름(_N):</Label>
+                <TextBox Name="input_stuname" Width="100" />
+            </StackPanel>
+            <StackPanel Grid.Column="2" Margin="5" Orientation="Horizontal">
+                <Label >학번(_I):</Label>
+                <TextBox Name="input_stuid"  Width="100" />
+            </StackPanel>
+            <StackPanel Grid.Column="3" Margin="5" Orientation="Horizontal">
+                <Label >과목(_S):</Label>
+                <TextBox Name="input_stusub" Width="100" />
+            </StackPanel>
+            <StackPanel Grid.Column="4" Margin="5" Orientation="Horizontal">
+                <Label >성적(_G):</Label>
+                <TextBox Name="input_stugrade"  Width="100" />
+            </StackPanel>
+            <StackPanel Grid.Column="5" Margin="5" Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Name="input_Grade" Content ="성적 입력"  Width="100" Click="input_Grade_Click"/>
+            </StackPanel>
+        </Grid>
+
+        <DataGrid x:Name="dataGrid" ItemsSource="{Binding DV_1}" Grid.ColumnSpan="2"
+                  AutoGenerateColumns="False" CanUserAddRows="False" Margin="10,10,10,10" IsReadOnly="True">
+            <DataGrid.Columns >
+                <DataGridTextColumn Header="이름" Binding="{Binding Path=name}" Width="1*"/>
+                <DataGridTextColumn Header="학번" Binding="{Binding Path=id}" Width="1*"/>
+                <DataGridTextColumn Header="과목" Binding="{Binding Path=subject}" Width="1.5*"/>
+                <DataGridTextColumn Header="등급" Binding="{Binding Path=grade}" Width="1.0*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </StackPanel>
+    
+</Page>
