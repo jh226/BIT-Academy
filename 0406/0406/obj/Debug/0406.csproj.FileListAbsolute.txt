@@ -1,0 +1,24 @@
+C:\Users\user\Desktop\BIT\0406\0406\bin\Debug\0406.exe.config
+C:\Users\user\Desktop\BIT\0406\0406\bin\Debug\0406.exe
+C:\Users\user\Desktop\BIT\0406\0406\bin\Debug\0406.pdb
+C:\Users\user\Desktop\BIT\0406\0406\obj\Debug\0406.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\BIT\0406\0406\obj\Debug\0406.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\Desktop\BIT\0406\0406\obj\Debug\0406.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\BIT\0406\0406\obj\Debug\0406.exe
+C:\Users\user\Desktop\BIT\0406\0406\obj\Debug\0406.pdb
+C:\Users\user\Desktop\0406\0406\bin\Debug\0406.exe.config
+C:\Users\user\Desktop\0406\0406\bin\Debug\0406.exe
+C:\Users\user\Desktop\0406\0406\bin\Debug\0406.pdb
+C:\Users\user\Desktop\0406\0406\obj\Debug\0406.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\0406\0406\obj\Debug\0406.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\Desktop\0406\0406\obj\Debug\0406.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\0406\0406\obj\Debug\0406.exe
+C:\Users\user\Desktop\0406\0406\obj\Debug\0406.pdb
+C:\Users\user\Desktop\0406 - 복사본\0406\bin\Debug\0406.exe.config
+C:\Users\user\Desktop\0406 - 복사본\0406\bin\Debug\0406.exe
+C:\Users\user\Desktop\0406 - 복사본\0406\bin\Debug\0406.pdb
+C:\Users\user\Desktop\0406 - 복사본\0406\obj\Debug\0406.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\0406 - 복사본\0406\obj\Debug\0406.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\Desktop\0406 - 복사본\0406\obj\Debug\0406.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\0406 - 복사본\0406\obj\Debug\0406.exe
+C:\Users\user\Desktop\0406 - 복사본\0406\obj\Debug\0406.pdb
