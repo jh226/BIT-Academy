@@ -1,0 +1,12 @@
+﻿<Application x:Class="_0428_성적.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:_0428_성적"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <LinearGradientBrush x:Key="background">
+            <GradientStop Color="#FFD3BFFF" Offset="0"/>
+            <GradientStop Color="#FF5E76F7" Offset="1"/>
+        </LinearGradientBrush>
+    </Application.Resources>
+</Application>

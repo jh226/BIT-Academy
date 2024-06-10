@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="_0503_IISService.CCal" CodeBehind="CCal.svc.cs" %>

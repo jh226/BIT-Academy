@@ -1,0 +1,9 @@
+﻿<Application x:Class="_0426_데이터바인드.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:_0426_데이터바인드"
+             StartupUri="Window2.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

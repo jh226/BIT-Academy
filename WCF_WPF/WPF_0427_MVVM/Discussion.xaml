@@ -1,0 +1,58 @@
+﻿<Page x:Class="_0427_MVVM.Discussion"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:data="clr-namespace:_0427_MVVM"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Discussion"
+      Background="{StaticResource background}">
+    <Page.Resources>
+        <data:Message        x:Key="message" />
+        <data:MessageIO      x:Key="messages" />
+    </Page.Resources>
+
+    <Grid DataContext="{StaticResource message}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="100"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="50" />
+        </Grid.RowDefinitions>
+        <ListBox Grid.ColumnSpan="3" Margin="5">
+            <ListBox.ItemsSource>
+                <data:MessageIO/>
+            </ListBox.ItemsSource>
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Width="300">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="chat.png" Width="20"/>
+                            <TextBlock Text="{Binding Sender}"/>
+                        </StackPanel>
+                        <TextBlock Text="{Binding Content}" Margin="20,0,0,0" TextWrapping="Wrap" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <TextBox Grid.Row="1" Grid.Column="0" Margin="5" Text="{Binding Path=Sender}"/>
+        <TextBox Grid.Row="1" Grid.Column="1" Margin="5" Text="{Binding Path=Content}"/>
+        <Button Name="send_Message" Grid.Row="1" Grid.Column="2" Margin="5" Content="Send" Click="send_Message_Click">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+                        <Rectangle Fill="#AA3E3737" Margin="5,5,0,0"/>
+                        <Rectangle Fill="{TemplateBinding Background}" Margin="0,0,5,5"/>
+                        <Viewbox Margin="5,5,15,15">
+                            <ContentPresenter/>
+                        </Viewbox>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>            
+        </Button>
+    </Grid>
+</Page>

@@ -1,0 +1,138 @@
+﻿<Window x:Class="_0427_계좌.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_0427_계좌"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="880">
+    <Window.Resources>
+        <local:AccountList      x:Key="account_list" />
+        <local:AccountIOList    x:Key="accountio_list"/>
+        <local:Account          x:Key="insert_account"/>
+        <local:AccountIO        x:Key="io_account"/>
+    </Window.Resources>
+    <StackPanel DataContext="{StaticResource account_list}">
+        <!-- 첫번째 라인(저장기능)-->
+        <Grid DataContext="{StaticResource insert_account}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="200"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0" Margin="5" Orientation="Horizontal">
+                <Label Background="Lavender">[계좌개설]</Label>
+            </StackPanel>
+            <StackPanel Grid.Column="1" Margin="5" Orientation="Horizontal">
+                <Label >계좌번호(_I):</Label>
+                <TextBox Name="input_accid" Text="{Binding Path=Id}" Width="100" />
+            </StackPanel>
+            <StackPanel Grid.Column="2" Margin="5" Orientation="Horizontal">
+                <Label >이름(_N):</Label>
+                <TextBox Name="input_accname" Text="{Binding Path=Name}" Width="120"/>
+            </StackPanel>
+            <StackPanel Grid.Column="3" Margin="5" Orientation="Horizontal">
+                <Label >잔액(_B):</Label>
+                <TextBox Name="input_accbalance" Text="{Binding Path=Balance}" Width="120" />
+            </StackPanel>
+            <StackPanel Grid.Column="4" Margin="5" Orientation="Horizontal">
+                <Button Name="input_Account" Content ="계좌계설" Click="input_Account_Click"  Width="120"/>
+            </StackPanel>
+        </Grid>
+
+        <!-- 두번째 라인(입출금 - 수정기능)-->
+        <Grid DataContext="{StaticResource io_account}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="200"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0" Margin="5" Orientation="Horizontal">
+                <Label Background="LightBlue">[계좌입출금]</Label>
+            </StackPanel>
+            <StackPanel Grid.Column="1" Margin="5" Orientation="Horizontal">
+                <Label >계좌번호(_I):</Label>
+                <TextBox Name="io_accid" Text="{Binding Path=Id}" Width="100" />
+            </StackPanel>
+            <StackPanel Grid.Column="2" Margin="5" Orientation="Horizontal">
+                <Label >입금액(_A):</Label>
+                <TextBox Name="input_money" Text="{Binding Path=Input}" Width="120" />
+            </StackPanel>
+            <StackPanel Grid.Column="3" Margin="5" Orientation="Horizontal">
+                <Label >출금액(_A):</Label>
+                <TextBox Name="output_money" Text="{Binding Path=Output}" Width="120" />
+            </StackPanel>
+            <StackPanel Grid.Column="4" Margin="5" Orientation="Horizontal">
+                <Button Name="io_Account" Content ="계좌입출금" Click="io_Account_Click"  Width="120"/>
+            </StackPanel>
+        </Grid>
+        
+        <!-- 세번째 라인 -->
+        <ListBox ItemsSource="{Binding}" SelectionChanged="ListBox_SelectionChanged" IsSynchronizedWithCurrentItem="True">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock> 
+                        계좌번호:
+                        <TextBlock Text="{Binding Path=Id}" />
+                        , 이름:
+                        <TextBlock Text="{Binding Path=Name}" />
+                        , 잔액:
+                        <TextBlock Text="{Binding Path=Balance}" />
+                        개설일:
+                        <TextBlock Text="{Binding Path=NewDate}" />
+                    </TextBlock>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        
+        <!-- 네번째 라인-->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0" Margin="5" Orientation="Horizontal">
+                <Label >계좌번호(_I):</Label>
+                <Label Name="accid" Content="{Binding Path=Id}" Width="120" />
+            </StackPanel>
+            <StackPanel Grid.Column="1" Margin="5" Orientation="Horizontal">
+                <Label >이름(_N):</Label>
+                <Label Name="accname" Content="{Binding Path=Name}" Width="120"/>
+            </StackPanel>
+            <StackPanel Grid.Column="2" Margin="5" Orientation="Horizontal">
+                <Label >잔액(_B):</Label>
+                <Label Name="accbalance" Content="{Binding Path=Balance}" Width="120" />
+            </StackPanel>
+            <StackPanel Grid.Column="3" Margin="5" Orientation="Horizontal">
+                <Label >개설일(_T):</Label>
+                <Label Name="accnewdate" Content="{Binding Path=NewDate}" />
+            </StackPanel>
+        </Grid>
+
+        <!-- 다섯번째 라인 -->
+        <ListBox ItemsSource="{Binding Source={StaticResource accountio_list}}" IsSynchronizedWithCurrentItem="True">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock> 
+                        계좌번호:
+                        <TextBlock Text="{Binding Path=Id}" />
+                        , 입금액:
+                        <TextBlock Text="{Binding Path=Input}" />
+                        , 출금액:
+                        <TextBlock Text="{Binding Path=Output}" />
+                        , 잔액:
+                        <TextBlock Text="{Binding Path=Balance}" />
+                        , 거래일:
+                        <TextBlock Text="{Binding Path=NewDate}" />
+                    </TextBlock>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </StackPanel>
+</Window>
