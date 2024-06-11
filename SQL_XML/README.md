@@ -23,6 +23,8 @@
 |:---:|:---:|
 
 ## XML_0417
+- 네이버 파파고 API사용 (현재 없음)
+
 |번역 프로그램|<img src="https://github.com/jh226/BIT-Academy/assets/136438531/98c1e2f7-5721-4dcf-8ef5-f47faf36386c" width="300px" alt="실행">|
 |:---:|:---:|
 
