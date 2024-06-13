@@ -28,3 +28,11 @@
 ## WPF_0420_연결지향
 -  데이터베이스와 직접적으로 연결하여 데이터를 조회, 수정, 삭제, 추가하는 방식
 -  회원 관리 프로그램
+  
+![image](https://github.com/jh226/BIT-Academy/assets/136438531/28d1cb24-cc13-4b05-91b0-798b3daa36b3)
+
+## WPF_0426_데이터바인드
+-UI 요소와 데이터 소스를 연결하여 UI 요소가 자동으로 데이터를 표시하거나 업데이트함
+- 간단한 회원 관리 프로그램
+  
+![image](https://github.com/jh226/BIT-Academy/assets/136438531/94a98237-eed2-4e5f-acb9-555e63da5dd7)
