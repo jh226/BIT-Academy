@@ -1,7 +1,7 @@
 # WCF_WPF
 
 ## 0425 (WPF)
-WPF 기본 애플리케이션 구조 프로그램
+- WPF 기본 애플리케이션 구조 프로그램
 ![image](https://github.com/jh226/BIT-Academy/assets/136438531/ec1dc1f7-c32e-4723-8881-d96cff318823)
 
 ## WCF_0502
@@ -22,3 +22,6 @@ WPF 기본 애플리케이션 구조 프로그램
 |6|0503_ImageService|이미지 파일을 저장, 조회, 리스트 조회, 삭제하는 기능을 제공 서비스|
 
 ## WCF_0504
+- 로그인을 통한 좌석 입석 및 채팅 프로그램
+![image](https://github.com/jh226/BIT-Academy/assets/136438531/2d59a632-905f-4d04-9de9-4a956ad13bc0)
+
