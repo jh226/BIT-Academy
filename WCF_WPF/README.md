@@ -36,3 +36,29 @@
 - 간단한 회원 관리 프로그램
   
 ![image](https://github.com/jh226/BIT-Academy/assets/136438531/94a98237-eed2-4e5f-acb9-555e63da5dd7)
+
+## WPF_0427_MVVM
+- MVVM 패턴사용
+- XAML과 데이터 바인딩을 통해 View와 ViewModel을 연결하고, 이를 통해 사용자 인터페이스의 동적인 업데이트와 데이터 표현을 용이하게 함
+- 물품  조회 및 고객 서비스 프로그램
+  
+|![image](https://github.com/jh226/BIT-Academy/assets/136438531/1b5d1d80-41fe-42db-a9e9-658ea3b46767)|![image](https://github.com/jh226/BIT-Academy/assets/136438531/a867100d-0f6b-42e3-8d3b-e834b9d58bfe)|
+|:---:|:---:|
+
+## WPF_0427_계좌관리
+- 계좌 관리 프로그램
+- MVVM 패턴 적용
+  
+![image](https://github.com/jh226/BIT-Academy/assets/136438531/9fe486c3-d64c-4798-85ae-1f9a414c706c)
+
+## WPF_0428_성적_DB
+- DB 연동 학생 성적 관리 프로그램
+-  MVVM 패턴사용
+  
+|![image](https://github.com/jh226/BIT-Academy/assets/136438531/11bbf458-0a81-45f3-8565-884e79cb8764)|![image](https://github.com/jh226/BIT-Academy/assets/136438531/27befa97-2005-45df-971b-42e2a4cba8ec)|
+|:---:|:---:|
+
+## WPF_0428_성적관리
+- 학생 성적 관리 프로그램
+- MVVM 패턴사용
+
